@@ -1,0 +1,10 @@
+<html><head><title>Request Rejected</title></head><body>The requested URL was rejected. Please consult with your administrator.<br>
+<br>The requested URL was: <span id="url"></span></br><br>Your IP-address: <span id="clientip"></span><br>Your support ID is: 9307290599365035267<br><br><a href='javascript:history.back();'>[Go Back]</a>
+<script>
+  document.getElementById("url").innerText = window.location;
+  function getIP(json) {
+    document.getElementById("clientip").innerText = json.ip;
+  }
+</script>
+<script type="application/javascript" src="http://ipinfo.io/?format=jsonp&callback=getIP"></script>
+</body></html>
