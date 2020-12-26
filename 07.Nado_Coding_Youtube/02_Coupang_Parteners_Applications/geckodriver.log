@@ -1554,3 +1554,5 @@ JavaScript error: https://login.coupang.com/resources/20201217025259/components/
 http://requirejs.org/docs/errors.html#scripterror
 JavaScript error: https://login.coupang.com/resources/20201217025259/components/require.js/2.1.11/require.min.js, line 8: Error: Script error for: common/attemptLimitation/constants
 http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://asset2.coupangcdn.com/cdnjs/moment.js/2.10.2/moment.min.js, line 6: unreachable code after return statement
+1608974140660	Marionette	INFO	Stopped listening on port 41187
